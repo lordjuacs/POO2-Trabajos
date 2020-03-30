@@ -8,88 +8,92 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug"/>
+				<Option working_dir="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="quicksort">
-				<Option output="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/quicksort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort"/>
-					<CompileFile command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="quicksort/fast">
-				<Option output="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/quicksort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort/fast"/>
-					<CompileFile command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug"/>
+				<Option working_dir="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Mingw-w64/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quicksort">
+				<Option output="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/quicksort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quicksort/fast">
+				<Option output="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/quicksort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/J/CLionProjects/POOII/quicksort/funciones.cpp">
+		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/funciones.cpp">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="C:/Users/J/CLionProjects/POOII/quicksort/funciones.h">
+		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/funciones.h">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="C:/Users/J/CLionProjects/POOII/quicksort/main.cpp">
+		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/main.cpp">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="C:/Users/J/CLionProjects/POOII/quicksort/CMakeLists.txt">
+		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

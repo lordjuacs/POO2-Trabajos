@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/J/CLionProjects/POOII/quicksort/funciones.cpp" "C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/funciones.cpp.obj"
-  "C:/Users/J/CLionProjects/POOII/quicksort/main.cpp" "C:/Users/J/CLionProjects/POOII/quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/main.cpp.obj"
+  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/funciones.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/funciones.cpp.o"
+  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/main.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

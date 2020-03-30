@@ -1,7 +1,8 @@
 //
 // Created by J on 3/28/2020.
 //
-
+#include <iostream>
+using namespace std;
 #ifndef QUICKSORT_FUNCIONES_H
 #define QUICKSORT_FUNCIONES_H
 

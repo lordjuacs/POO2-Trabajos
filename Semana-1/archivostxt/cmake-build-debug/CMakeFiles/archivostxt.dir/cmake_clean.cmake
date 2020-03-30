@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/archivostxt.dir/main.cpp.obj"
-  "archivostxt.exe"
-  "archivostxt.exe.manifest"
+  "CMakeFiles/archivostxt.dir/main.cpp.o"
+  "archivostxt"
   "archivostxt.pdb"
-  "libarchivostxt.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

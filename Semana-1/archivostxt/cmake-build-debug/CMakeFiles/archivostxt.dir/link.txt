@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\archivostxt.dir/objects.a
-C:\Mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\archivostxt.dir/objects.a @CMakeFiles\archivostxt.dir\objects1.rsp
-C:\Mingw-w64\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\archivostxt.dir/objects.a -Wl,--no-whole-archive  -o archivostxt.exe -Wl,--out-implib,libarchivostxt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\archivostxt.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/archivostxt.dir/main.cpp.o  -o archivostxt 

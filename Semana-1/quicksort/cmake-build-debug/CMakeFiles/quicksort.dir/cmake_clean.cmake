@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/quicksort.dir/funciones.cpp.obj"
-  "CMakeFiles/quicksort.dir/main.cpp.obj"
-  "libquicksort.dll.a"
-  "quicksort.exe"
-  "quicksort.exe.manifest"
+  "CMakeFiles/quicksort.dir/funciones.cpp.o"
+  "CMakeFiles/quicksort.dir/main.cpp.o"
+  "quicksort"
   "quicksort.pdb"
 )
 
