@@ -5,7 +5,7 @@ using namespace std;
 #include "EFE.h"
 int main()
 {
-    CInteger* a = new CInteger(9);
+    /*CInteger* a = new CInteger(9);
     CInteger* n = new CInteger(3);
     CInteger* c = *a - n;
     CInteger* d = *a / n;
@@ -14,18 +14,20 @@ int main()
     *a^=2;
     cout << e->GetValue() << endl;
     e = *a^n;
-    cout << e->GetValue();
+    cout << e->GetValue() << endl;
 
 
 
     delete a;
     delete n;
-    delete c;
+    delete c;*/
 
 
 
 
-    EFE<float>hola;
+    CNumber<float>prueba1;
+    prueba1.SetValue(3.5);
+    cout << prueba1.GetValue();
 
 
 }

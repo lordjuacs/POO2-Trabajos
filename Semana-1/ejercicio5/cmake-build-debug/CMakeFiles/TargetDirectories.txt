@@ -1,3 +1,3 @@
-C:/Users/J/CLionProjects/POOII/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/J/CLionProjects/POOII/test/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/J/CLionProjects/POOII/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/cmake-build-debug/CMakeFiles/test.dir
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/cmake-build-debug/CMakeFiles/edit_cache.dir
