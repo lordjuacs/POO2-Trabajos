@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/main.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/main.cpp.o"
-  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/quick_sort.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o"
+  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/main.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/main.cpp.o"
+  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

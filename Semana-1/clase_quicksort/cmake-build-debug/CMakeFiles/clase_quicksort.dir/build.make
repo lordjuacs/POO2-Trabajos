@@ -43,10 +43,10 @@ RM = /opt/clion-2019.3.5/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort
+CMAKE_SOURCE_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug
+CMAKE_BINARY_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clase_quicksort.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/clase_quicksort.dir/flags.make
 
 CMakeFiles/clase_quicksort.dir/main.cpp.o: CMakeFiles/clase_quicksort.dir/flags.make
 CMakeFiles/clase_quicksort.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clase_quicksort.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clase_quicksort.dir/main.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clase_quicksort.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clase_quicksort.dir/main.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/main.cpp
 
 CMakeFiles/clase_quicksort.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clase_quicksort.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/main.cpp > CMakeFiles/clase_quicksort.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/main.cpp > CMakeFiles/clase_quicksort.dir/main.cpp.i
 
 CMakeFiles/clase_quicksort.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clase_quicksort.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/main.cpp -o CMakeFiles/clase_quicksort.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/main.cpp -o CMakeFiles/clase_quicksort.dir/main.cpp.s
 
 CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o: CMakeFiles/clase_quicksort.dir/flags.make
 CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o: ../quick_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/quick_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.cpp
 
 CMakeFiles/clase_quicksort.dir/quick_sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clase_quicksort.dir/quick_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/quick_sort.cpp > CMakeFiles/clase_quicksort.dir/quick_sort.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.cpp > CMakeFiles/clase_quicksort.dir/quick_sort.cpp.i
 
 CMakeFiles/clase_quicksort.dir/quick_sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clase_quicksort.dir/quick_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/quick_sort.cpp -o CMakeFiles/clase_quicksort.dir/quick_sort.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.cpp -o CMakeFiles/clase_quicksort.dir/quick_sort.cpp.s
 
 # Object files for target clase_quicksort
 clase_quicksort_OBJECTS = \
@@ -95,7 +95,7 @@ clase_quicksort: CMakeFiles/clase_quicksort.dir/main.cpp.o
 clase_quicksort: CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o
 clase_quicksort: CMakeFiles/clase_quicksort.dir/build.make
 clase_quicksort: CMakeFiles/clase_quicksort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable clase_quicksort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable clase_quicksort"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clase_quicksort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/clase_quicksort.dir/clean:
 .PHONY : CMakeFiles/clase_quicksort.dir/clean
 
 CMakeFiles/clase_quicksort.dir/depend:
-	cd /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clase_quicksort.dir/depend
 

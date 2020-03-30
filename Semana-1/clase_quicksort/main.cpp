@@ -1,6 +1,7 @@
-#include <iostream>
-
+#include "quick_sort.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    quick_sort_t qs;
+    qs<<"in.txt";
+    qs>>"out.txt";
     return 0;
 }
