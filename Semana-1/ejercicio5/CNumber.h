@@ -58,7 +58,7 @@ template <typename T> T CNumber<T>::GetValue()
 template <typename T>void CNumber<T>::SetValue(T n)
 {
     value = n;
-}
+};
 template <typename T> void CNumber<T>::operator+= (CNumber* &n)
 {
     value += n->GetValue();

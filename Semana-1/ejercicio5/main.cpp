@@ -25,9 +25,12 @@ int main()
 
 
 
-    CNumber<float>prueba1;
-    prueba1.SetValue(3.5);
-    cout << prueba1.GetValue();
+//    CNumber<float>prueba1;
+//    prueba1.SetValue(3.5);
+//    cout << prueba1.GetValue();
+
+    CNumber <int>asd(5);
+    cout <<asd.GetValue();
 
 
 }

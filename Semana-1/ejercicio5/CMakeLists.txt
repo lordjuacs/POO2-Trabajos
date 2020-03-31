@@ -3,4 +3,4 @@ project(ejercicio5)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(test main.cpp CInteger.h CNumber.h EFE.h)
+add_executable(ejercicio5 main.cpp CInteger.h CNumber.h EFE.h)
