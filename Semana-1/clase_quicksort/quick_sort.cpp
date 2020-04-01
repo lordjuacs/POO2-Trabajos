@@ -3,12 +3,14 @@
 //
 
 #include "quick_sort.h"
+#include <utility>
 using namespace std;
 quick_sort_t::quick_sort_t():_data(nullptr), _size(0) {
 }
 
 quick_sort_t::~quick_sort_t() {
     delete [] _data;
+    _data = nullptr;
 }
 
 /*
@@ -64,8 +66,8 @@ quick_sort_t &operator<<(quick_sort_t &qs, const string &file_name) {
     }
 
     //leer el contenido
-    int x;
 
+    int x;
     while (in >> x)//va a leer linea por linea
     {
 
@@ -83,13 +85,13 @@ quick_sort_t &operator<<(quick_sort_t &qs, const string &file_name) {
     in.close();
 
 
-    qs.quick_sort(qs._data, 0, qs._size);
+    qs.quick_sort(qs._data, 0, qs._size - 1);
     return qs;
 }
 
 quick_sort_t &operator>>(quick_sort_t &qs, const string &file_name) {
     ofstream out( "../" + file_name);
-    for(int f = 0; f <= qs._size; f++){
+    for(int f = 0; f < qs._size; f++){
         out << qs._data[f] << endl;
     }
     //delete [] qs._data;
