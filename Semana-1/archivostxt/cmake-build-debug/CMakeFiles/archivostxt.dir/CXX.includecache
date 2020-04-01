@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/archivostxt/main.cpp
+iostream
+-
+fstream
+-
+
