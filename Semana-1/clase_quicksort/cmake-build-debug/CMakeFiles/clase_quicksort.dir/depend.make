@@ -3,6 +3,7 @@
 
 CMakeFiles/clase_quicksort.dir/main.cpp.o: ../main.cpp
 CMakeFiles/clase_quicksort.dir/main.cpp.o: ../quick_sort.h
+CMakeFiles/clase_quicksort.dir/main.cpp.o: ../quick_template.h
 
 CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o: ../quick_sort.cpp
 CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o: ../quick_sort.h

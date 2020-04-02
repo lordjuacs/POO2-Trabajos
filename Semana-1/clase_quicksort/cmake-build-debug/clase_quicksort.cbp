@@ -93,6 +93,9 @@
 		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.h">
 			<Option target="clase_quicksort"/>
 		</Unit>
+		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_template.h">
+			<Option target="clase_quicksort"/>
+		</Unit>
 		<Unit filename="/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
