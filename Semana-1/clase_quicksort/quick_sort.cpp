@@ -49,14 +49,13 @@ void quick_sort_t:: quick_sort(int* data, int start, int end){
     quick_sort(data, start, pi - 1);
     quick_sort(data, pi + 1, end);
 }
-quick_sort_t &operator<<(quick_sort_t &qs, const string &file_name) {
+quick_sort_t &operator>>(quick_sort_t &qs, const string &file_name) {
     //abrir el archivo
     //para q abra y escriba -> fstream file("in.txt", ios::in|ios::out);
-    ifstream in(file_name);
+    ifstream in("../" + file_name);//tmb corre ifstream in; pero hay que poner el in.open de abajo. si se borra el in.open, hay q poner ifstream in("../" + file_name);
 
     //fstream file;
     //...
-    in.open("../" + file_name, ios::in);
 
     //validacion
     if(!in.is_open())
@@ -89,7 +88,7 @@ quick_sort_t &operator<<(quick_sort_t &qs, const string &file_name) {
     return qs;
 }
 
-quick_sort_t &operator>>(quick_sort_t &qs, const string &file_name) {
+quick_sort_t &operator<<(quick_sort_t &qs, const string &file_name) {
     ofstream out( "../" + file_name);
     for(int f = 0; f < qs._size; f++){
         out << qs._data[f] << endl;
