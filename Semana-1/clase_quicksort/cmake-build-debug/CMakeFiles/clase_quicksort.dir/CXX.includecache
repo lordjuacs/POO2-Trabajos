@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.cpp
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/main.cpp
 quick_sort.h
 /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.h
-utility
--
 
 /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/quick_sort.h
 string
@@ -18,5 +16,7 @@ string
 fstream
 -
 iostream
+-
+utility
 -
 
