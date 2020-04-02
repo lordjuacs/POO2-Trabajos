@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d0d9355-e209-40e6-a160-f04957352f37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir/quick_sort.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase_quicksort/cmake-build-debug/clase_quicksort" beforeDir="false" afterPath="$PROJECT_DIR$/../clase_quicksort/cmake-build-debug/clase_quicksort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase_quicksort/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../clase_quicksort/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase_quicksort/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../clase_quicksort/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase_quicksort/quick_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../clase_quicksort/quick_sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d0d9355-e209-40e6-a160-f04957352f37" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +62,7 @@
       <workItem from="1585602058536" duration="2682000" />
       <workItem from="1585628455296" duration="808000" />
       <workItem from="1585710010078" duration="355000" />
-      <workItem from="1585770399161" duration="615000" />
+      <workItem from="1585770399161" duration="617000" />
     </task>
     <servers />
   </component>
