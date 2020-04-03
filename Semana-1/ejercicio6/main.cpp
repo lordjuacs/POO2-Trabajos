@@ -2,7 +2,7 @@
 #include "CVector.h"
 using namespace std;
 int main() {
-    CVector<int>efe(5);
+    /*CVector<int>efe(5);
 
     for(int i = 0; i < 5; i++)
         efe._array[i] = 3;
@@ -19,9 +19,21 @@ int main() {
 
     efe.erase(0);
     for(int i = 0; i < 5; i++)
-        cout << efe._array[i] << endl;
+        cout << efe._array[i] << endl;*/
+    utec::CVector<float>a1(1);
+    for(int i = 0; i < 1; i++){
+        cout << "N: "; cin >>a1[i];
+    }
 
+    utec::CVector<float>a2(1);
+    for(int i = 0; i < 1; i++){
+        cout << "N: "; cin >>a2[i];
+    }
 
+    utec::CVector<float>c = (a1 + a2);
+
+    for(int i = 0; i < c._size;i++)
+        cout << c[i] << endl;
 
     return 0;
 }
