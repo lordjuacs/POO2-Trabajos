@@ -10,7 +10,7 @@ using namespace std;
 namespace utec {
     template<typename T>
     class CVector {
-    public:
+    private:
         T *_array;
         size_t _size;
     public:
@@ -19,6 +19,8 @@ namespace utec {
         CVector(CVector <T> &vec);
 
         CVector(size_t size);
+
+        int getSize(){return _size;};
 
         void push_back(T num);
 

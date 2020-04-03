@@ -1,6 +1,7 @@
 #include <iostream>
 #include "CVector.h"
 using namespace std;
+using namespace utec;
 int main() {
     /*CVector<int>efe(5);
 
@@ -30,9 +31,9 @@ int main() {
         cout << "N: "; cin >>a2[i];
     }
 
-    utec::CVector<float>c = (a1 + a2);
+    CVector<float>c = (a1 + a2);
 
-    for(int i = 0; i < c._size;i++)
+    for(int i = 0; i < c.getSize() ;i++)
         cout << c[i] << endl;
 
     return 0;
