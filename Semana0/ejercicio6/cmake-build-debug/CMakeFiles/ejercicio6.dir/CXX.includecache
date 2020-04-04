@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio6/CVector.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana0/ejercicio6/CVector.h
 glob.h
 -
 
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio6/main.cpp
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana0/ejercicio6/main.cpp
 iostream
 -
 CVector.h
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio6/CVector.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana0/ejercicio6/CVector.h
 

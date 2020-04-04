@@ -14,24 +14,28 @@ namespace utec {
         T *_array;
         size_t _size;
     public:
-        CVector() : _array(nullptr), _size(0) {};
+        CVector() : _array(nullptr), _size(0) {}; //por defecto
 
-        CVector(CVector <T> &vec);
+        CVector(CVector <T> &vec); // copia
 
         CVector(size_t size);
 
-        int getSize(){return _size;};
+
+        size_t getSize(){return _size;};
 
         void push_back(T num);
 
         void pop_back();
 
-        void insert(int index, T num);
+        void insert(size_t index, T num);
 
-        void erase(int index);
+        void erase(size_t index);
 
-        T &operator[](int index);
+        T &operator[](size_t index); //escritura valores
+        const T& operator[](size_t index) const; //leer valores
         CVector<T> operator +(CVector<T> &a);
+
+        size_t size() const;
 
         virtual ~CVector();
     };
@@ -86,7 +90,7 @@ namespace utec {
     }
 
     template<typename T>
-    void CVector<T>::insert(int index, T num) {
+    void CVector<T>::insert(size_t index, T num) {
         T *aux = nullptr;
         aux = new T[_size + 1];
         for (int i = 0; i < index; i++)
@@ -101,7 +105,7 @@ namespace utec {
     }
 
     template<typename T>
-    void CVector<T>::erase(int index) {
+    void CVector<T>::erase(size_t index) {
         T *aux = nullptr;
         aux = new T[_size - 1];
         for (int i = 0; i < index; i++)
@@ -115,7 +119,7 @@ namespace utec {
     }
 
     template<typename T>
-    T &CVector<T>::operator[](int index) {
+    T &CVector<T>::operator[](size_t index) {
         if(index < 0 or index >= _size)
             cerr << "Indice: " << index <<" Indice fuera del rango del vector" << endl;
         return *(_array + index);
