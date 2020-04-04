@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/CInteger.h
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/CNumber.h
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/EFE.h
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/main.cpp
+iostream
+-
+CInteger.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/CInteger.h
+CNumber.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/CNumber.h
+EFE.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/ejercicio5/EFE.h
+
