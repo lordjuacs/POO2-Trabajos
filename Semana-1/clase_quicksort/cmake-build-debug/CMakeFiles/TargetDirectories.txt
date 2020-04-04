@@ -1,3 +1,0 @@
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles/clase_quicksort.dir
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/clase_quicksort/cmake-build-debug/CMakeFiles/edit_cache.dir

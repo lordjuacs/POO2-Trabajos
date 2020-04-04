@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/quicksort.dir/main.cpp.o CMakeFiles/quicksort.dir/funciones.cpp.o  -o quicksort 
