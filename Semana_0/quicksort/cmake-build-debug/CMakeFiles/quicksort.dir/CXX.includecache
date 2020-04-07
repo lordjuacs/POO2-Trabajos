@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/funciones.h
+iostream
+-
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/main.cpp
+funciones.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana-1/quicksort/funciones.h
+
