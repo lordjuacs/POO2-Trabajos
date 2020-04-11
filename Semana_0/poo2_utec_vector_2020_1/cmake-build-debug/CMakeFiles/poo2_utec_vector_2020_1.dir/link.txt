@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/poo2_utec_vector_2020_1.dir/main.cpp.o CMakeFiles/poo2_utec_vector_2020_1.dir/vector_utec.cpp.o  -o poo2_utec_vector_2020_1 
