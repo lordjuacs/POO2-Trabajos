@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.cpp
+linked_list.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.h
+utility
+-
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.h
+cctype
+-
+cstddef
+-
+
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/main.cpp
+iostream
+-
+cassert
+-
+string
+-
+linked_list.h
+/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.h
+
