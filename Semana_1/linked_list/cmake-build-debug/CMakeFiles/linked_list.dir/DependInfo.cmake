@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/linked_list.cpp.o"
-  "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/main.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/main.cpp.o"
+  "/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/linked_list.cpp.o"
+  "/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/main.cpp" "/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

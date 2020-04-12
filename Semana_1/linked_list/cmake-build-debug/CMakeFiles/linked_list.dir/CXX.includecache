@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.cpp
+/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.cpp
 linked_list.h
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.h
+/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.h
 utility
 -
 
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.h
-cctype
+/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.h
+iostream
 -
 cstddef
--
-
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/main.cpp
-iostream
 -
 cassert
 -
 string
 -
-linked_list.h
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.h
 

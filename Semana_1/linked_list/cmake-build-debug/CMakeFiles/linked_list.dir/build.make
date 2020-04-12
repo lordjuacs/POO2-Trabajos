@@ -43,10 +43,10 @@ RM = /opt/clion-2019.3.5/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list
+CMAKE_SOURCE_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug
+CMAKE_BINARY_DIR = /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/linked_list.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/linked_list.dir/flags.make
 
 CMakeFiles/linked_list.dir/main.cpp.o: CMakeFiles/linked_list.dir/flags.make
 CMakeFiles/linked_list.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_list.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/main.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_list.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/main.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/main.cpp
 
 CMakeFiles/linked_list.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_list.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/main.cpp > CMakeFiles/linked_list.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/main.cpp > CMakeFiles/linked_list.dir/main.cpp.i
 
 CMakeFiles/linked_list.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_list.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/main.cpp -o CMakeFiles/linked_list.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/main.cpp -o CMakeFiles/linked_list.dir/main.cpp.s
 
 CMakeFiles/linked_list.dir/linked_list.cpp.o: CMakeFiles/linked_list.dir/flags.make
 CMakeFiles/linked_list.dir/linked_list.cpp.o: ../linked_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linked_list.dir/linked_list.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/linked_list.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linked_list.dir/linked_list.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/linked_list.cpp.o -c /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.cpp
 
 CMakeFiles/linked_list.dir/linked_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_list.dir/linked_list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.cpp > CMakeFiles/linked_list.dir/linked_list.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.cpp > CMakeFiles/linked_list.dir/linked_list.cpp.i
 
 CMakeFiles/linked_list.dir/linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_list.dir/linked_list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/linked_list.cpp -o CMakeFiles/linked_list.dir/linked_list.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/linked_list.cpp -o CMakeFiles/linked_list.dir/linked_list.cpp.s
 
 # Object files for target linked_list
 linked_list_OBJECTS = \
@@ -95,7 +95,7 @@ linked_list: CMakeFiles/linked_list.dir/main.cpp.o
 linked_list: CMakeFiles/linked_list.dir/linked_list.cpp.o
 linked_list: CMakeFiles/linked_list.dir/build.make
 linked_list: CMakeFiles/linked_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable linked_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable linked_list"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linked_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/linked_list.dir/clean:
 .PHONY : CMakeFiles/linked_list.dir/clean
 
 CMakeFiles/linked_list.dir/depend:
-	cd /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/linked_list.dir/depend
 

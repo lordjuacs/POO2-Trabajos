@@ -1,3 +1,3 @@
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir
-/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir
+/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/CMakeFiles/edit_cache.dir

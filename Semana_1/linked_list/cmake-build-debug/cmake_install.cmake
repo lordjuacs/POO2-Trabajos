@@ -1,4 +1,4 @@
-# Install script for directory: /home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list
+# Install script for directory: /home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/joaquin_ramirez/Documents/UTEC/POO2-Trabajos/Semana_1/linked_list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/joaquin_ramirez/Documents/UTEC/POO2/sesion-1-unidad-1-linked-list-lordjuacs/linked_list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

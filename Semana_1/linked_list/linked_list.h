@@ -4,11 +4,13 @@
 #ifndef LINKED_LIST_LINKED_LIST_H
 #define LINKED_LIST_LINKED_LIST_H
 
-#include <cctype>
+#include <iostream>
 #include <cstddef>
-using namespace std;
+#include <cassert>
+#include <string>
 namespace utec
 {
+
     struct node_t {
         int value_ = 0;
         node_t* next_ = nullptr;
@@ -23,13 +25,13 @@ namespace utec
         public:
             //constructors
             linked_list_t() = default;
-            linked_list_t(const linked_list_t& other);
-            linked_list_t&operator=(const linked_list_t& other);
-            linked_list_t(linked_list_t&& other) noexcept;
-            linked_list_t&operator=(linked_list_t&& other) noexcept;
+            linked_list_t(const linked_list_t& other);                          //copy, 100% new
+            linked_list_t&operator=(const linked_list_t& other);              //copy, already exists
+            linked_list_t(linked_list_t&& other) noexcept;                  //move, 100% new
+            linked_list_t&operator=(linked_list_t&& other) noexcept;        //move, already exists
 
             //destroyers
-            ~linked_list_t();
+            virtual ~linked_list_t();
 
             //add operations
             void push_front(int value);
@@ -42,8 +44,9 @@ namespace utec
             void erase(size_t index);
 
             //traversal operations
-            int& item(size_t index);
-            const int& item(size_t index) const;
+            int& item(size_t index);                                        //
+            const int& item(size_t index) const;                             // READ ONLY
+            node_t* exacto(size_t index) const;
 
             //get size of list
             size_t size() const;
