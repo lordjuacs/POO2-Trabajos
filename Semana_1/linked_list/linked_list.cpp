@@ -49,7 +49,6 @@ utec::linked_list_t &utec::first::linked_list_t::operator=(const utec::linked_li
 }
 
 utec::first::linked_list_t::linked_list_t(utec::linked_list_t &&other) noexcept {
-    //to do
     size_ = move(other.size());
     head_ = move(other.head_);
     tail_ = move(other.tail_);

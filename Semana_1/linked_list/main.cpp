@@ -115,7 +115,7 @@ int main() {
     l6.push_back(4);
     l6.push_back(5);
 
-    utec::linked_list_t l7(l6);
+    utec::linked_list_t l7(move(l6));
     string result7;
     for(int i = 0; i < l7.size(); ++i)
         result7 += to_string(l7.item(i)) + " ";
@@ -129,7 +129,7 @@ int main() {
     l8.push_back(60);
     utec::linked_list_t l9;
     l9.push_back(1);
-    l9 = l8;
+    l9 = move(l8);
     string result8;
     for(int i = 0; i < l9.size(); ++i)
         result8 += to_string(l9.item(i)) + " ";
