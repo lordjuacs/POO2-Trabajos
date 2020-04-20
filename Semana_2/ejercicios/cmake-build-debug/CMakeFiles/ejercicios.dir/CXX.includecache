@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_2/ejercicios/funciones.h
+iostream
+-
+
+/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_2/ejercicios/main.cpp
+funciones.h
+/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_2/ejercicios/funciones.h
+vector
+-
+

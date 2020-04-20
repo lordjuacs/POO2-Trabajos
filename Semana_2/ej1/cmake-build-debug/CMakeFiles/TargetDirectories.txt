@@ -1,3 +1,0 @@
-/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_2/ej1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_2/ej1/cmake-build-debug/CMakeFiles/ej1.dir
-/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_2/ej1/cmake-build-debug/CMakeFiles/edit_cache.dir
