@@ -13,7 +13,7 @@ using namespace std;
 
 //ej1
 template <typename Iterator, typename Object>
-Iterator mfind(Iterator start, Iterator end, const Object& x){
+Iterator my_find(Iterator start, Iterator end, const Object& x){
     for(auto& it = start; it != end; ++it)
         if(*it == x)
             return it;
@@ -22,17 +22,21 @@ Iterator mfind(Iterator start, Iterator end, const Object& x){
 
 //ej2
 template <typename InputIt1, typename InputIt2, typename OutputIt>
-OutputIt mmerge(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, OutputIt d_first){
+OutputIt my_merge(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, OutputIt d_first){
     while (true) {
-        if (first1==last1)
-            return copy(first2,last2,d_first);
+        if (first1==last1){
+            while (first2!=last2) {
+                *d_first++ = *first2++;
+            }
+            return d_first;
+        }
         *d_first++ = *first1++;
     }
 }
 
 //ej3
 template <typename InputIt1, typename InputIt2, typename OutputIt>
-OutputIt intersection(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, OutputIt d_first){
+OutputIt my_intersection(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, OutputIt d_first){
     while (first1!=last1 and first2!=last2)
     {
         if (*first1<*first2)
@@ -48,7 +52,7 @@ OutputIt intersection(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2
 }
 //ej4
 template <typename InputIt1, typename InputIt2, typename OutputIt>
-OutputIt united(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, OutputIt d_first){
+OutputIt my_union(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, OutputIt d_first){
     while(first1 != last1 and first2 != last2) {
             if (*first1 < *first2) {
                 *d_first++ = *first1++;
@@ -75,7 +79,7 @@ OutputIt united(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2
 
 //ej5
 template< typename type, template<typename ...> class Container>
-void insert_sorted(Container<type> &cont, type value){
+void my_insert_sorted(Container<type> &cont, type value){
     //asumiendo que la lista ya esta ordenada
     auto temp = *(begin(cont));
     auto it = ++begin(cont);
@@ -97,7 +101,29 @@ void insert_sorted(Container<type> &cont, type value){
     }
 }
 
+//ej6
+template< class ForwardIt, class T >
+ForwardIt my_remove(ForwardIt first, ForwardIt last, const T& value)
+{
+    first = my_find(first, last, value);
+    if(first != last){
+        for(auto i = first; i != last; ++i){
+            if(*i != value){
+                *first = *i;//move tmb corre creo
+                first++;
+            }
+        }
+    }
+    return first;
+}
 
-
+//ej7
+template <typename InputIt, typename OutputIt>
+OutputIt my_copy(InputIt first, InputIt last, OutputIt d_first){
+    while (first!=last) {
+        *d_first++ = *first++;
+    }
+    return d_first;
+}
 
 #endif //EJERCICIOS_FUNCIONES_H

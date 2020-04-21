@@ -3,66 +3,96 @@
 int main() {
     //ej1
     vector<double> v1 = {1,2,3};
-    auto ini = cbegin(v1);
-    auto fin = cend(v1);
-    auto elemento_si = mfind(ini, fin, 2);
-    auto elemento_no = mfind(ini, fin, 4);
-    assert(elemento_si != fin);
-    assert(elemento_no == fin);
+    auto ini1 = cbegin(v1);
+    auto fin1 = cend(v1);
+    auto elemento_si = my_find(ini1, fin1, 2);
+    auto elemento_no = my_find(ini1, fin1, 4);
+    assert(elemento_si != fin1);
+    assert(elemento_no == fin1);
 
     //ej2
-    int first[] = {1,2,3,4,5};
-    int second[] = {1,2,3,4,5};
+    int first2[] = {1,2,3,4,5};
+    int second2[] = {1,2,3,4,5};
     vector<int>v2(10);
-    mmerge(first, first + 5, second, second + 5, v2.begin());
+    my_merge(first2, first2 + 5, second2, second2 + 5, v2.begin());
     cout << "Ej 2:Elementos nuevo vector:" << endl;
     for(auto element:v2)
         cout << element << endl;
     cout << endl;
 
     //ej3
-    list<int>list1 = {2,24,76};
-    list<int>list2 = {1,2,24,25};
-    list<int>list3(2);
-    intersection(list1.begin(), list1.end(),list2.begin(), list2.end(), list3.begin());
+    list<int>list31 = {2,24,76};
+    list<int>list32 = {1,2,24,25};
+    list<int>list33(2);
+    my_intersection(list31.begin(), list31.end(), list32.begin(), list32.end(), list33.begin());
     cout << "Ej 3: Elementos  lista interseccion" << endl;
-    for(auto& elem:list3)
+    for(auto& elem:list33)
         cout << elem << endl;
     cout << endl;
 
     //ej4
-    list<int>list21 = {1,2,4,7};
-    list<int>list22 = {3,4,5};
-    list<int>list23(6);
-    united(list21.begin(), list21.end(),list22.begin(), list22.end(), list23.begin());
+    list<int>list41 = {1,2,4,7};
+    list<int>list42 = {3,4,5};
+    list<int>list43(6);
+    my_union(list41.begin(), list41.end(), list42.begin(), list42.end(), list43.begin());
     cout << "Ej 4: Elementos  lista union" << endl;
-    for(auto& elem:list23)
+    for(auto& elem:list43)
         cout << elem << endl;
     cout << endl;
 
-    list<int>list31 = {2,4,7,9,22};
+    //ej5
+    list<int>list51 = {2,4,7,9,22};
     int value1 = 1;
-    insert_sorted(list31, value1);
+    my_insert_sorted(list51, value1);
     cout << "Ej 5: Insertando un numero menor a todos" << endl;
-    for(auto& elem:list31)
+    for(auto& elem:list51)
         cout << elem << endl;
     cout << endl;
 
-    list<int>list32 = {2,4,7,9,22};
+    list<int>list52 = {2,4,7,9,22};
     int value2 = 24;
-    insert_sorted(list32, value2);
+    my_insert_sorted(list52, value2);
     cout << "Ej 5: Insertando un numero mayor a todos" << endl;
-    for(auto& elem:list32)
+    for(auto& elem:list52)
         cout << elem << endl;
     cout << endl;
 
-    list<int>list33 = {2,4,7,9,22};
+    list<int>list53 = {2,4,7,9,22};
     int value3 = 3;
-    insert_sorted(list33, value3);
+    my_insert_sorted(list53, value3);
     cout << "Ej 5: Insertando un numero dentro del rango" << endl;
-    for(auto& elem:list33)
+    for(auto& elem:list53)
         cout << elem << endl;
     cout << endl;
+
+    list<int>list54 = {2,4,7,9,22};
+    int value4 = 22;
+    my_insert_sorted(list54, value4);
+    cout << "Ej 5: Insertando un numero ya presente --> no cambia la lista" << endl;
+    for(auto& elem:list54)
+        cout << elem << endl;
+    cout << endl;
+
+    //ej6
+    list<int>list61 = {1,2,1,3,4,1,5,6,7};
+    auto new_end_61 = my_remove(begin(list61), end(list61), 1);
+    cout << "Ej 6: Removiendo value de la lista" << endl;
+    for(auto it = begin(list61); it !=new_end_61;++it){
+        cout << *it<< endl;
+    }
+
+    //ej7
+    list<int>list71 = {1,2,3,4,5,6,7,8,9,10};
+    list<int>list72(10);
+    my_copy(begin(list71), end(list71), begin(list72));
+    cout << "Ej 7: Copiando una lista a otra" << endl;
+    for(auto& elem:list72)
+        cout << elem << endl;
+    cout << endl;
+
+
+
+
 
 
     return 0;
