@@ -5,8 +5,8 @@ int main() {
     vector<double> v1 = {1,2,3};
     auto ini = cbegin(v1);
     auto fin = cend(v1);
-    auto elemento_si = find(ini, fin, 2);
-    auto elemento_no = find(ini, fin, 4);
+    auto elemento_si = mfind(ini, fin, 2);
+    auto elemento_no = mfind(ini, fin, 4);
     assert(elemento_si != fin);
     assert(elemento_no == fin);
 
@@ -14,7 +14,7 @@ int main() {
     int first[] = {1,2,3,4,5};
     int second[] = {1,2,3,4,5};
     vector<int>v2(10);
-    merge(first, first + 5, second, second + 5, v2.begin());
+    mmerge(first, first + 5, second, second + 5, v2.begin());
     cout << "Ej 2:Elementos nuevo vector:" << endl;
     for(auto element:v2)
         cout << element << endl;
@@ -40,6 +40,29 @@ int main() {
         cout << elem << endl;
     cout << endl;
 
+    list<int>list31 = {2,4,7,9,22};
+    int value1 = 1;
+    insert_sorted(list31, value1);
+    cout << "Ej 5: Insertando un numero menor a todos" << endl;
+    for(auto& elem:list31)
+        cout << elem << endl;
+    cout << endl;
+
+    list<int>list32 = {2,4,7,9,22};
+    int value2 = 24;
+    insert_sorted(list32, value2);
+    cout << "Ej 5: Insertando un numero mayor a todos" << endl;
+    for(auto& elem:list32)
+        cout << elem << endl;
+    cout << endl;
+
+    list<int>list33 = {2,4,7,9,22};
+    int value3 = 3;
+    insert_sorted(list33, value3);
+    cout << "Ej 5: Insertando un numero dentro del rango" << endl;
+    for(auto& elem:list33)
+        cout << elem << endl;
+    cout << endl;
 
 
     return 0;
