@@ -90,9 +90,29 @@ int main() {
         cout << elem << endl;
     cout << endl;
 
+    //ej8
+    list<int>list81 = {1,2,3,4,5};
+    auto print_squared = [](const int& n) {
+        cout << pow(n,2) << endl;
+    };
+    cout << "Ej 8: Aplicando un print con for_each" << endl;
+    my_for_each(cbegin(list81), cend(list81), print_squared);
+    cout << endl;
 
+    //ej9
+    list<int>list91 = {2,3,4,5,6,7};
+    list<int>list92(6);
+    auto cube = [](int& n) {
+    n = pow(n,3);
+    return n;
+    };
+    cout << "Ej 9: Aplicando cubo a una lista y almacenando en otra" << endl;
+    my_transform(begin(list91), end(list91),begin(list92), cube);
+    for(auto& elem:list92)
+        cout << elem << endl;
+    cout << endl;
 
-
+    //ej10
 
 
     return 0;

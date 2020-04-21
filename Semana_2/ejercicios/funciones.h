@@ -5,7 +5,7 @@
 #include <vector>
 #include <list>
 #include <cassert>
-#include <ctime>
+#include <cmath>
 #include <algorithm>
 using namespace std;
 #ifndef EJERCICIOS_FUNCIONES_H
@@ -125,5 +125,24 @@ OutputIt my_copy(InputIt first, InputIt last, OutputIt d_first){
     }
     return d_first;
 }
+
+//ej8
+template <class InputIt, class Unaryfunction>
+void my_for_each(InputIt first, InputIt last, Unaryfunction fun){
+    while(first != last)
+        fun(*first++);
+}
+
+//ej9
+template <class InputIt, class OutputIt, class Unaryfunction>
+OutputIt my_transform(InputIt first, InputIt last, OutputIt d_first, Unaryfunction fun){
+    while(first != last)
+        d_first++ = fun(*first++);
+    return d_first;
+}
+
+//ej10
+template<class Iterator>
+
 
 #endif //EJERCICIOS_FUNCIONES_H
