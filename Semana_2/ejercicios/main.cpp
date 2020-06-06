@@ -112,7 +112,22 @@ int main() {
         cout << elem << endl;
     cout << endl;
 
+
     //ej10
+    cout << "Ej10:"<<endl;
+    time_t start1, end1, start2, end2;
+    time(&start1);
+    cout << "Sobreviviente 1: "<<Josefo(5,0)<<endl;
+    time(&end1);
+    auto dif1 = end1 - start1;
+    cout << "Tiempo 1: " << dif1<<endl;
+
+    time(&start2);
+    cout << "Sobreviviente 2: "<<Josefo(5,1)<<endl;
+    time(&end2);
+    auto dif2 = end2 - start2;
+    cout << "Tiempo 2: " << dif1<<endl;
+
 
 
     return 0;

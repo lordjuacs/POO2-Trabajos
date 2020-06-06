@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ejercicios_templates.dir/main.cpp.o  -o ejercicios_templates 

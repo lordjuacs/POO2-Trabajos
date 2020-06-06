@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_7/heap/heap.h
+sstream
+-
+iostream
+-
+vector
+-
+cassert
+-
+sstream
+-
+algorithm
+-
+string
+-
+
+/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_7/heap/main.cpp
+heap.h
+/home/joaquin_ramirez/Documents/UTEC/POO2/POO2-Trabajos/Semana_7/heap/heap.h
+

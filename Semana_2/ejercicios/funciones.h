@@ -7,6 +7,7 @@
 #include <cassert>
 #include <cmath>
 #include <algorithm>
+#include <time.h>
 using namespace std;
 #ifndef EJERCICIOS_FUNCIONES_H
 #define EJERCICIOS_FUNCIONES_H
@@ -137,12 +138,18 @@ void my_for_each(InputIt first, InputIt last, Unaryfunction fun){
 template <class InputIt, class OutputIt, class Unaryfunction>
 OutputIt my_transform(InputIt first, InputIt last, OutputIt d_first, Unaryfunction fun){
     while(first != last)
-        d_first++ = fun(*first++);
+        *d_first++ = fun(*first++);
     return d_first;
 }
 
 //ej10
-template<class Iterator>
+int Josefo(int N, int m)
+{
 
+    if (N == 1)
+        return 1;
+    else
+        return (Josefo(N - 1, m) + m) % N + 1;
+}
 
 #endif //EJERCICIOS_FUNCIONES_H

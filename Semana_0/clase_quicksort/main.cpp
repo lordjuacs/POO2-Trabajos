@@ -5,4 +5,3 @@ int main() {
     qs>>"in.txt";
     qs<<"out.txt";
     return 0;
-}
